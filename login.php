@@ -12,7 +12,7 @@
   </head>
   <body>
     <form id="code-form">
-      <input type="text" name="code" id="code-input" maxlength="10">
+      <input type="text" name="code" id="code-input" maxlength="10" placeholder="code" autocomplete="off">
       <input type="submit" value="ENVOYER" id="submit-input" class="transition">
     </form>
   </body>
