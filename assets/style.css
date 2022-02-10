@@ -18,6 +18,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 
 #login-form input, #login-form button {
@@ -45,6 +46,21 @@ body {
   border: 3px solid #317B65;
   box-shadow: 7px 7px 0 #317B65, 0 7px 0 #317B65, 7px 0 0 #317B65;
   cursor: pointer;
+}
+
+#login-form #errorMsg {
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  bottom: -4rem;
+  height: 25px;
+  width: 390px;
+  background-color: #ffc4c9;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  line-height: 25px!important;
 }
 
 /* --- Delete button --- */
